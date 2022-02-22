@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="dev.css">
+</head>
+
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        <div>
+            Name : <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            Position : <input type="text" name="myposition">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myemail">
+        </div>
+
+        <br>
+        <div>
+            are you qualified for this job? : <input type="checkbox" value="Submit">
+        </div>
+
+        <br>
+        <div>
+            Gender: male : <input type="radio" name="mygender"> female : <input type="radio" name="mygender">other :
+            <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            write something about you : <br>
+            <textarea name="write about yourself" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <section>
+            <label for="mycar"></label>
+            Your car: <select name="your cars" id="cars">
+                <option value="audi">Audi</option>
+                <option value="lamborghini">lamborghini</option>
+                <option value="benz">benz</option>
+                <option value="tesla" selected>tesla</option>
+            </select>
+        </section>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
